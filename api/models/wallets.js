@@ -17,7 +17,7 @@ module.exports = (sequelize, DataTypes) => {
     name: DataTypes.STRING,
     cpf: DataTypes.STRING,
     birthdate: DataTypes.DATE,
-    empty: DataTypes.BOOLEAN
+    full: DataTypes.BOOLEAN
   }, {
     sequelize,
     modelName: 'wallets',

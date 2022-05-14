@@ -17,7 +17,7 @@ module.exports = {
       birthdate: {
         type: Sequelize.DATE
       },
-      empty: {
+      full: {
         type: Sequelize.BOOLEAN
       },
       createdAt: {
